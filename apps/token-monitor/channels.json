@@ -1,0 +1,22 @@
+{
+  "channels": {
+    "akidio001": {
+      "name": "大虾咪助手",
+      "type": "telegram",
+      "icon": "🤖",
+      "created": "2026-02-27"
+    },
+    "akidio002": {
+      "name": "作家虾",
+      "type": "telegram",
+      "icon": "📝",
+      "created": "2026-02-27"
+    },
+    "akidio003": {
+      "name": "架构虾",
+      "type": "telegram",
+      "icon": "🏗️",
+      "created": "2026-02-27"
+    }
+  }
+}

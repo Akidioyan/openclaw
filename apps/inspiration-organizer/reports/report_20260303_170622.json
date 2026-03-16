@@ -1,0 +1,26 @@
+[
+  {
+    "file_path":"\/Users\/aidenyan\/openclaw\/inspiration-organizer\/data\/text\/design-example.txt",
+    "file_name":"design-example.txt",
+    "content_type":"text",
+    "created_time":"2026-03-03T13:16:29.434",
+    "modified_time":"2026-03-03T12:25:55.095",
+    "size_kb":0.1015625
+  },
+  {
+    "file_path":"\/Users\/aidenyan\/openclaw\/inspiration-organizer\/data\/text\/art-example.txt",
+    "file_name":"art-example.txt",
+    "content_type":"text",
+    "created_time":"2026-03-03T13:16:29.479",
+    "modified_time":"2026-03-03T12:25:55.096",
+    "size_kb":0.091796875
+  },
+  {
+    "file_path":"\/Users\/aidenyan\/openclaw\/inspiration-organizer\/data\/text\/tech-example.txt",
+    "file_name":"tech-example.txt",
+    "content_type":"text",
+    "created_time":"2026-03-03T13:16:29.402",
+    "modified_time":"2026-03-03T12:25:55.095",
+    "size_kb":0.109375
+  }
+]

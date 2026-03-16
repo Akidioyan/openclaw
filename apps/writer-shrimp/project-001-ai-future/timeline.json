@@ -1,0 +1,528 @@
+{
+  "story": {
+    "title": "AI 未来现实主义故事",
+    "genre": "现实主义小说",
+    "theme": "AI时代普通人的生存与选择"
+  },
+  "characters": [
+    {
+      "id": "c004",
+      "name": "老李",
+      "age": 45,
+      "occupation": "塑料厂老工人",
+      "traits": ["务实", "沉默", "有韧性"],
+      "arc": "在自动化浪潮中主动学习机器维护，选择留下而非逃离",
+      "first_appearance": "chapter-3",
+      "status": "在厂，自学机械臂维护，接触到小张开发的远程监测系统"
+    },
+    {
+      "id": "c005",
+      "name": "小刘",
+      "age": 22,
+      "occupation": "塑料厂工人（职校毕业）",
+      "traits": ["年轻", "有朴素的向前看的劲头"],
+      "arc": "面对自动化威胁，选择学习修机器",
+      "first_appearance": "chapter-3",
+      "status": "与王建国同班参加维修培训，尚未有实操机会"
+    },
+    {
+      "id": "c001",
+      "name": "王建国",
+      "age": 35,
+      "occupation": "美团专送骑手→塑料厂工人→机械臂维修工",
+      "traits": ["谨慎", "传统", "输不起", "正在成长"],
+      "arc": "从普通骑手到被算法淘汰，回老家，开始寻找第三条路",
+      "first_appearance": "chapter-1",
+      "status": "县城塑料厂机械臂维修工，已完成第一次实操，正在与小张合作推广远程监测系统"
+    },
+    {
+      "id": "c002",
+      "name": "小张",
+      "age": 25,
+      "occupation": "美团五星骑手→Python开发者",
+      "traits": ["激进", "会用工具", "追求效率", "心态转变"],
+      "arc": "从使用外挂的赢家到意识到工具军备竞赛的无意义，回老家后开始自学Python编程",
+      "first_appearance": "chapter-1",
+      "status": "成功开发机械臂远程监测系统，具备基本的远程监测和故障预警功能，与王建国合作推广"
+    },
+    {
+      "id": "c003",
+      "name": "站长",
+      "age": 40,
+      "occupation": "美团站点管理员",
+      "traits": ["执行者", "中立"],
+      "arc": "平台与骑手之间的传话人",
+      "first_appearance": "chapter-1"
+    },
+    {
+      "id": "c006",
+      "name": "张姐",
+      "age": 38,
+      "occupation": "服装厂裁剪工",
+      "traits": ["沉稳", "有家庭责任感"],
+      "arc": "服装厂引进自动裁床后，被迫学习机器人维修",
+      "first_appearance": "chapter-4",
+      "status": "参加工业机器人维修培训班，为了保住工作"
+    },
+    {
+      "id": "c007",
+      "name": "老陈",
+      "age": 42,
+      "occupation": "家具厂木工",
+      "traits": ["传统", "守旧"],
+      "arc": "电锯换成数控机床后，需要学习维修技能",
+      "first_appearance": "chapter-4",
+      "status": "参加工业机器人维修培训班，寻找新出路"
+    },
+    {
+      "id": "c008",
+      "name": "小周",
+      "age": 20,
+      "occupation": "职高毕业生",
+      "traits": ["迷茫", "对未来不确定"],
+      "arc": "刚毕业就面临就业困难，选择学习机器人维修",
+      "first_appearance": "chapter-4",
+      "status": "参加工业机器人维修培训班，为了找工作"
+    },
+    {
+      "id": "c009",
+      "name": "赵师傅",
+      "age": 50,
+      "occupation": "机械厂钳工",
+      "traits": ["老手艺", "年龄大", "适应慢"],
+      "arc": "工龄30年的老钳工，面临数控机床的冲击",
+      "first_appearance": "chapter-4",
+      "status": "参加工业机器人维修培训班，想保住现有工作"
+    },
+    {
+      "id": "c010",
+      "name": "阿强",
+      "age": 26,
+      "occupation": "快递站分拣员",
+      "traits": ["有基础", "学习快", "目标明确"],
+      "arc": "快递站引入自动分拣机后，利用大学基础学习机器人维修",
+      "first_appearance": "chapter-4",
+      "status": "参加工业机器人维修培训班，为了进入机器人行业"
+    },
+    {
+      "id": "c011",
+      "name": "孙老师",
+      "age": 30,
+      "occupation": "职业培训中心讲师",
+      "traits": ["专业", "耐心"],
+      "arc": "为不同背景的人提供机器人维修培训，见证学员的成长",
+      "first_appearance": "chapter-4",
+      "status": "工业机器人维修培训班讲师，正在讲伺服系统"
+    }
+  ],
+  "locations": [
+    {
+      "id": "l001",
+      "name": "五环外城中村",
+      "description": "王建国的出租屋，10平米隔断间",
+      "significance": "底层生存空间"
+    },
+    {
+      "id": "l002",
+      "name": "商业街肯德基门口",
+      "description": "骑手蹲点等单的地方",
+      "significance": "算法派单的起点"
+    },
+    {
+      "id": "l003",
+      "name": "四环外合租房",
+      "description": "小张的出租屋，15平米次卧",
+      "significance": "为效率付出的代价"
+    },
+    {
+      "id": "l004",
+      "name": "火车站",
+      "description": "离开与告别的地方",
+      "significance": "梦想破碎的终点"
+    },
+    {
+      "id": "l005",
+      "name": "县城工业园塑料厂",
+      "description": "王建国回乡后的工作地，月薪4200，包午饭",
+      "significance": "逃离北京后的落脚点，也是新冲突的起点"
+    },
+    {
+      "id": "l006",
+      "name": "县城职业培训中心",
+      "description": "工业机器人维修培训班所在地",
+      "significance": "第三条路的起点"
+    },
+    {
+      "id": "l007",
+      "name": "职业培训中心教室",
+      "description": "四十平米的仓库改造教室，摆着八张长桌和机器人模型",
+      "significance": "十二个人共同学习的地方，展现不同背景的人如何应对自动化"
+    },
+    {
+      "id": "l008",
+      "name": "塑料厂车间",
+      "description": "机械臂工作的地方，弥漫着塑料味和机油味",
+      "significance": "理论到现实的桥梁"
+    }
+  ],
+  "props": [
+    {
+      "id": "p001",
+      "name": "美团AI调度系统",
+      "description": "根据骑手数据智能派单的算法",
+      "significance": "看不见的主宰者"
+    },
+    {
+      "id": "p002",
+      "name": "死神抢单软件",
+      "description": "第三方外挂，80元/月，后升级为死神Pro 299元/月",
+      "significance": "工具军备竞赛的象征"
+    },
+    {
+      "id": "p003",
+      "name": "骑手星级系统",
+      "description": "五星到一星的评级，决定派单量和收入",
+      "significance": "量化人的价值"
+    },
+    {
+      "id": "p004",
+      "name": "AI骑手助手",
+      "description": "美团官方免费工具，功能类似死神Pro",
+      "significance": "工具优势的消失"
+    },
+    {
+      "id": "p005",
+      "name": "无人配送机器人",
+      "description": "正在试点的配送机器人",
+      "significance": "人类劳动力的终极替代"
+    },
+    {
+      "id": "p006",
+      "name": "工业机械臂",
+      "description": "厂里新购入的自动化设备，替代流水线工人",
+      "significance": "自动化浪潮蔓延到制造业的象征"
+    },
+    {
+      "id": "p007",
+      "name": "老李的手绘笔记本",
+      "description": "密密麻麻的字和手绘零件图，记录机械臂维护知识",
+      "significance": "人在系统面前主动求存的具体行动"
+    },
+    {
+      "id": "p008",
+      "name": "工业机器人教具",
+      "description": "价值28万的小型工业机器人模型，用于教学",
+      "significance": "知识传递的载体"
+    },
+    {
+      "id": "p009",
+      "name": "二手工业机器人真机",
+      "description": "工厂借来的五年历史的二手工业机器人，用于故障诊断练习",
+      "significance": "从理论到实践的桥梁"
+    },
+    {
+      "id": "p010",
+      "name": "王建国的学习笔记本",
+      "description": "记录维修过程和学习心得的新笔记本，开始有自己的实操记录",
+      "significance": "理论与实践结合的见证"
+    },
+    {
+      "id": "p011",
+      "name": "Python机械臂远程监测系统",
+      "description": "小张开发的Python程序，具备远程监测、故障预警和数据可视化功能",
+      "significance": "技术温度的具象化，连接机械臂维修与编程",
+      "first_appearance": "chapter-6"
+    },
+    {
+      "id": "p012",
+      "name": "串口转USB模块",
+      "description": "连接机械臂与电脑的硬件设备",
+      "significance": "物理世界与数字世界的桥梁",
+      "first_appearance": "chapter-6"
+    },
+    {
+      "id": "p013",
+      "name": "Stack Overflow社区",
+      "description": "全球最大的程序员问答社区",
+      "significance": "知识共享与互助的象征",
+      "first_appearance": "chapter-6"
+    }
+  ],
+  "events": [
+    {
+      "id": "e010",
+      "chapter": 3,
+      "timestamp": "2031-03-01 晚上",
+      "description": "小张微信告知王建国在学Python，两人讨论出路",
+      "participants": ["c001", "c002"],
+      "location": "l005",
+      "impact": "引出第三条路的思考"
+    },
+    {
+      "id": "e011",
+      "chapter": 3,
+      "timestamp": "2031-03-02 早上",
+      "description": "厂里新来两台机械臂，老李开始自学维护",
+      "participants": ["c001", "c004"],
+      "location": "l005",
+      "impact": "展现自动化蔓延到制造业"
+    },
+    {
+      "id": "e012",
+      "chapter": 3,
+      "timestamp": "2031-03-02 中午",
+      "description": "小刘告诉王建国想学修机器",
+      "participants": ["c001", "c005"],
+      "location": "l005",
+      "impact": "年轻一代的朴素应对策略"
+    },
+    {
+      "id": "e013",
+      "chapter": 3,
+      "timestamp": "2031-03-03 晚上",
+      "description": "王建国与小张长电话，讨论两种逻辑：理解vs留下",
+      "participants": ["c001", "c002"],
+      "location": "l005",
+      "impact": "核心哲学转变：从'怎么赢'到'我想要什么'"
+    },
+    {
+      "id": "e014",
+      "chapter": 3,
+      "timestamp": "2031-03-06 周末",
+      "description": "王建国报名工业机器人维修培训班，费用8800元",
+      "participants": ["c001"],
+      "location": "l006",
+      "impact": "第三条路的具体行动"
+    },
+    {
+      "id": "e015",
+      "chapter": 3,
+      "timestamp": "2031-03-08",
+      "description": "小刘也报名同一培训班",
+      "participants": ["c001", "c005"],
+      "location": "l006",
+      "impact": "两代人共同选择留下"
+    },
+    {
+      "id": "e016",
+      "chapter": 3,
+      "timestamp": "2031-03-09 第一堂课",
+      "description": "培训班开课，王建国说'因为我想留下来'",
+      "participants": ["c001", "c005"],
+      "location": "l006",
+      "impact": "主题升华：不再逃跑，选择扎根"
+    },
+    {
+      "id": "e017",
+      "chapter": 4,
+      "timestamp": "2031-03-15 第一节课",
+      "description": "培训班正式开课，来了十二个人，来自不同行业",
+      "participants": ["c001", "c005", "c011", "c006", "c007", "c008", "c009", "c010"],
+      "location": "l007",
+      "impact": "展现不同背景的人在自动化浪潮中的处境"
+    },
+    {
+      "id": "e018",
+      "chapter": 4,
+      "timestamp": "2031-03-16",
+      "description": "孙老师布置作业《我为什么要学工业机器人维修》",
+      "participants": ["c011", "c001", "c005", "c006", "c007", "c008", "c009", "c010"],
+      "location": "l007",
+      "impact": "揭示每个人学习的真实动机"
+    },
+    {
+      "id": "e019",
+      "chapter": 4,
+      "timestamp": "2031-03-20",
+      "description": "赵师傅第一次尝试拆解机器人手腕，手在抖",
+      "participants": ["c009", "c011"],
+      "location": "l007",
+      "impact": "展现老工人在新技术面前的适应困难"
+    },
+    {
+      "id": "e020",
+      "chapter": 4,
+      "timestamp": "2031-03-25",
+      "description": "阿强第一个举手提问编程问题，展示学习优势",
+      "participants": ["c010", "c011"],
+      "location": "l007",
+      "impact": "展现年轻一代的学习优势和目标明确"
+    },
+    {
+      "id": "e021",
+      "chapter": 4,
+      "timestamp": "2031-03-28",
+      "description": "王建国和小刘成功诊断机器人电池故障",
+      "participants": ["c001", "c005", "c011"],
+      "location": "l007",
+      "impact": "从理论到实践的突破"
+    },
+    {
+      "id": "e022",
+      "chapter": 4,
+      "timestamp": "2031-04-05",
+      "description": "孙老师与学员讨论机器人是否会完全替代人类",
+      "participants": ["c011", "c001", "c005", "c006", "c007", "c008", "c009", "c010"],
+      "location": "l007",
+      "impact": "深化主题：人与机器的关系"
+    },
+    {
+      "id": "e023",
+      "chapter": 5,
+      "timestamp": "2031-04-06 上午",
+      "description": "王建国在老李指导下第一次维修机械臂，成功解决关节二过载问题",
+      "participants": ["c001", "c004"],
+      "location": "l008",
+      "impact": "理论到实践的真正转变"
+    },
+    {
+      "id": "e024",
+      "chapter": 5,
+      "timestamp": "2031-04-06 晚上",
+      "description": "王建国在培训班上主动提问伺服系统问题，将理论与实践结合",
+      "participants": ["c001", "c011"],
+      "location": "l007",
+      "impact": "学习状态的提升"
+    },
+    {
+      "id": "e025",
+      "chapter": 5,
+      "timestamp": "2031-04-07 下午",
+      "description": "王建国主动申请检查车间其他机械臂，发现并更换关节三轴承",
+      "participants": ["c001", "c004"],
+      "location": "l008",
+      "impact": "从被动学习到主动发现问题"
+    },
+    {
+      "id": "e026",
+      "chapter": 5,
+      "timestamp": "2031-04-07 晚上",
+      "description": "王建国与小张通话，分享实操经验，小张提到学Python到函数阶段",
+      "participants": ["c001", "c002"],
+      "location": "l001",
+      "impact": "两条路的并行成长"
+    },
+    {
+      "id": "e027",
+      "chapter": 6,
+      "timestamp": "2031-04-10 下午",
+      "description": "小张完成机械臂远程监测系统的开发，实现远程监测与故障预警功能",
+      "participants": ["c002"],
+      "location": "l003",
+      "impact": "Python编程从理论到实践的突破"
+    },
+    {
+      "id": "e028",
+      "chapter": 6,
+      "timestamp": "2031-04-11 上午",
+      "description": "小张与王建国测试程序，成功控制备用机械臂",
+      "participants": ["c001", "c002"],
+      "location": "l008",
+      "impact": "机械臂维修与Python编程的结合"
+    },
+    {
+      "id": "e029",
+      "chapter": 6,
+      "timestamp": "2031-04-13 晚上",
+      "description": "小张完成程序操作手册的编写",
+      "participants": ["c002"],
+      "location": "l003",
+      "impact": "技术的平民化与可推广性"
+    },
+    {
+      "id": "e030",
+      "chapter": 6,
+      "timestamp": "2031-04-15 上午",
+      "description": "王建国向老李介绍远程监测系统，老李表现出学习兴趣",
+      "participants": ["c001", "c004"],
+      "location": "l005",
+      "impact": "老工人对新技术的接受"
+    }
+  ],
+  "chapters": [
+    {
+      "number": 1,
+      "title": "送餐的人",
+      "status": "completed",
+      "word_count": 2986,
+      "key_events": ["e001", "e002", "e003", "e004", "e005"],
+      "new_characters": ["c001", "c002", "c003"],
+      "new_locations": ["l001", "l002", "l004"],
+      "new_props": ["p001", "p002", "p003", "p005"],
+      "theme": "会用工具的人替代不会用的人"
+    },
+    {
+      "number": 2,
+      "title": "五星骑手",
+      "status": "completed",
+      "word_count": 2847,
+      "key_events": ["e006", "e007", "e008", "e009"],
+      "new_characters": [],
+      "new_locations": ["l003"],
+      "new_props": ["p004"],
+      "theme": "工具军备竞赛中没有永远的赢家"
+    },
+    {
+      "number": 3,
+      "title": "第三条路",
+      "status": "completed",
+      "word_count": 2100,
+      "key_events": ["e010", "e011", "e012", "e013", "e014", "e015", "e016"],
+      "new_characters": ["c004", "c005"],
+      "new_locations": ["l005", "l006"],
+      "new_props": ["p006", "p007"],
+      "theme": "从'怎么赢'到'我想留下来'——在系统缝隙中寻找扎根的可能"
+    },
+    {
+      "number": 4,
+      "title": "培训班里的人",
+      "status": "completed",
+      "word_count": 1800,
+      "key_events": ["e017", "e018", "e019", "e020", "e021", "e022"],
+      "new_characters": ["c006", "c007", "c008", "c009", "c010", "c011"],
+      "new_locations": ["l007"],
+      "new_props": ["p008", "p009"],
+      "theme": "展现不同背景的人如何应对自动化——群像的力量"
+    },
+    {
+      "number": 5,
+      "title": "机械臂的缝隙",
+      "status": "completed",
+      "word_count": 2544,
+      "key_events": ["e023", "e024", "e025", "e026"],
+      "new_characters": [],
+      "new_locations": ["l008"],
+      "new_props": ["p010"],
+      "theme": "理论到现实的转变——在机械臂的缝隙里寻找生存空间"
+    },
+    {
+      "number": 6,
+      "title": "代码的温度",
+      "status": "completed",
+      "word_count": 4780,
+      "key_events": ["e027", "e028", "e029", "e030"],
+      "new_characters": [],
+      "new_locations": [],
+      "new_props": ["p011", "p012", "p013"],
+      "theme": "代码的温度——技术的平民化与可推广性"
+    }
+  ],
+  "themes": {
+    "main": "AI时代的工具通胀与个体困境",
+    "sub_themes": [
+      "算法对人的量化与控制",
+      "工具优势的短暂性",
+      "平台经济中的零和博弈",
+      "个体在系统面前的无力感",
+      "理论与实践的差距",
+      "主动适应与被动淘汰"
+    ]
+  },
+  "narrative_structure": {
+    "chapter_1": "建立冲突：不用工具的人被淘汰",
+    "chapter_2": "深化冲突：用工具的人也会被淘汰",
+    "chapter_3_plan": "寻找出路：是否存在第三条路？",
+    "chapter_4_plan": "展现选择：不同背景的人如何应对自动化",
+    "chapter_5_plan": "实践检验：理论到现实的转变"
+  }
+}

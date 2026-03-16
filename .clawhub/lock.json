@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "skills": {
+    "cursor-agent": {
+      "version": "2.1.0",
+      "installedAt": 1772006249570
+    },
+    "desktop-control": {
+      "version": "1.0.0",
+      "installedAt": 1772006299460
+    },
+    "vscode-node": {
+      "version": "0.2.0",
+      "installedAt": 1772007577902
+    },
+    "playwright-scraper-skill": {
+      "version": "1.2.0",
+      "installedAt": 1772011802268
+    },
+    "xiaohongshu-mcp": {
+      "version": "1.0.0",
+      "installedAt": 1772011894381
+    },
+    "web-form-automation": {
+      "version": "1.0.0",
+      "installedAt": 1772302819381
+    },
+    "proactive-agent": {
+      "version": "3.1.0",
+      "installedAt": 1772302831141
+    },
+    "find-skills": {
+      "version": "0.1.0",
+      "installedAt": 1772302835711
+    }
+  }
+}
